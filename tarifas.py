@@ -32,6 +32,7 @@ def costoFraccionHoraEsquema3(fraccion,tarifa):
 
 
 if __name__ == "__main__":
+    #Pruebas rapidas
     getcontext().prec = 2 
     getcontext().rounding = ROUND_UP 
     tarifa = Decimal(5)
